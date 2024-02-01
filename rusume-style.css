@@ -4,9 +4,15 @@
     position: relative;
     z-index: 2;
 }
+.title{
+    margin: 0 20px;
+}
 .rusume{
     list-style-type: none;
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    /* padding: 20px; */
+}
+.rusume-container{
     padding: 20px;
 }
 .rusume li{

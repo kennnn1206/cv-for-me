@@ -3,7 +3,7 @@ body{
     background:#fafafa  url(bg-cv.png);
 }
 .container-cv{
-    width: 1200px;
+    width: 100%;
     display: flex;
     margin: auto;
     margin-top: 60px;
@@ -54,7 +54,7 @@ body{
 }
 .header-nav li{
     margin: 0 8px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .header-nav li:hover{
     color: #ffb100;
@@ -77,6 +77,9 @@ body{
     height: 100%;
     align-items: center;
     margin: 0;
+}
+.header-icon li a{
+    color: black !important;
 }
 .header-icon li{
     margin: 0 10px;
@@ -124,7 +127,7 @@ body{
     color: #dc3545;
 }
 .header-icon i4:hover{
-    color: #dc3545;
+    color: #35dc83;
 }
 .sidebar h1{
     font-size: 17px;
@@ -241,7 +244,7 @@ body{
 }
 p {
     color: #4c4c4c;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 24px;
 }
 .my-service-container{
@@ -266,12 +269,12 @@ p {
 }
 .my-service-item h3{
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .my-service-item p{
-    font-size: 13px;
+    font-size: 14px;
     line-height: 14px;
     color: #989898;
 }
@@ -297,7 +300,7 @@ p {
 }
 .skill-title{
     margin: 0;
-    font-size: 13px;
+    font-size: 15px;
     color: #212529;
     margin-bottom: 8px;
     margin-top: 20px;
